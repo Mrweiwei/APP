@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { LocalstorageService } from './services/localstorage.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,11 +9,11 @@ export class AppComponent {
   private todolist:Array<any>;
   private data:Array<any>;
 
-  next(){
-    this.todolist=this.data;
-  }
-
-
+constructor(
+  public set:LocalstorageService,
+  public remove:LocalstorageService
+){
+}
 
 
 

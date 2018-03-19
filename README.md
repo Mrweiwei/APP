@@ -1,1 +1,0 @@
-创建两个component，list和input，先从子组件input创建输入框结构，通过双绑定ngModel获取输入值，放入数组todolist中，再将数组从子组件传到父组件汇中，写好list组件结构后，在从父组件中获取到绑定好的todolist属性的值进行数组操作。

@@ -1,4 +1,5 @@
 import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
+import { LocalstorageService } from '../../services/localstorage.service';
 
 @Component({
   selector: 'app-input',
@@ -6,8 +7,9 @@ import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
   styleUrls: ['./input.component.css']
 })
 export class InputComponent implements OnInit {
-
-  constructor() { 
+gettodolist=new LocalstorageService();
+  constructor(
+  ) { 
     }
     @Output() event=new EventEmitter();
     content='';
@@ -15,16 +17,16 @@ export class InputComponent implements OnInit {
 
     up(){
       this.todolist.push(this.content);
-       this.content = '';
+      this.gettodolist.set('todolist',this.todolist);
+      this.content = '';
       this.event.emit(this.todolist);
      
     //console.log(this.todolist);
     }
-
-
+  
 
 
   ngOnInit() {
+  
   }
-
 }
