@@ -1,0 +1,22 @@
+
+<ion-content id="bg">
+  <div id="surface">
+    <ion-title id="title">登录</ion-title>
+    <img src="../../assets/imgs/zlogo.png" alt="">
+    <p>全球不良资产超级综合服务平台</p>
+    <div id="list">
+    <ion-list no-lines>
+        <ion-item> 
+            <i class="iconfont" style="color:white">&#xe628;</i>
+            <input type="text" placeholder="请输入你的手机号" id="text"[(ngModel)]="text">
+            <br/>
+            <i class="iconfont" style="color:white">&#xe6e6;</i>
+            <input type="text" placeholder="请输入你的密码" id="password"[(ngModel)]="password">
+        </ion-item>
+      </ion-list>
+      <button ion-button round id="login" (click)="login()">登录</button> 
+      <button ion-button round id="register"(click)="re()">注册</button>      
+     <h2><a>忘记密码?</a></h2>
+    </div>
+  </div>
+</ion-content>
