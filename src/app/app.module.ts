@@ -18,9 +18,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from "@angular/http";
 import { JsonpModule } from "@angular/http";
 import { Headers} from "@angular/http";
-import { ReleasePage } from '../pages/release/release';
+
 import { MessagePage } from '../pages/message/message';
 import { Message1Page } from '../pages/message1/message1';
+import { Release2Page } from '../pages/release2/release2';
+import  {ReleasePage } from '../pages/release/release';
 @NgModule({
   declarations: [
     MyApp,
@@ -33,6 +35,7 @@ import { Message1Page } from '../pages/message1/message1';
     ReleasePage,
     MessagePage,
     Message1Page,
+    Release2Page,
   ],
   imports: [
     BrowserModule,
@@ -56,6 +59,7 @@ import { Message1Page } from '../pages/message1/message1';
     ReleasePage,
     MessagePage,
     Message1Page,
+    Release2Page,
   ],
   providers: [
     StatusBar,
