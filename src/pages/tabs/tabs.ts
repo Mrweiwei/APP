@@ -6,7 +6,7 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { ReleasePage } from '../release/release';
 import { MessagePage } from '../message/message';
-
+import { Release0Page } from '../release0/release0';
 
 
 

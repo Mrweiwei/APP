@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {ViewController,IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import  {Release0Page} from '../release0/release0'
 /**
  * Generated class for the Release2Page page.
  *
@@ -24,5 +24,7 @@ export class Release2Page {
   back(){
     this.viewCtrl.dismiss();
   }
-  
+  re(){
+    this.navCtrl.push(Release0Page);
+  }
 }
