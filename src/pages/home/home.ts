@@ -7,6 +7,7 @@ import { AlertController } from 'ionic-angular';
 import { ZiyaPage } from '../Ziya/Ziya';
 import { ContactPage } from '../contact/contact';
 import { App } from 'ionic-angular';  
+import { TabsPage } from '../tabs/tabs';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -23,7 +24,7 @@ export class HomePage {
 
   }
 
-
+  
   text:string;
   password:number;
   headers = new Headers( {'Content-Type':'application/x-www-form-urlencoded'} );
@@ -69,7 +70,7 @@ export class HomePage {
   //     console.log(err);
   //   };
   // };
-  this.navCtrl.push(ZiyaPage);
+  this.navCtrl.push(TabsPage);
   }
   re(){
     this.navCtrl.push(ContactPage);

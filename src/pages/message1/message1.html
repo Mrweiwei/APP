@@ -7,6 +7,11 @@
 <ion-header>
   <ion-navbar color="ziya">
     <ion-toolbar>
+            <ion-buttons start (click)="back();">
+                    <button ion-button icon-only color="dark">
+                      back
+                    </button>
+            </ion-buttons>
     <ion-title>{{msg}}</ion-title>
   </ion-toolbar>
   </ion-navbar>
@@ -53,7 +58,7 @@
           </ion-col>
           <ion-col col-auto>
             <!-- <input type="text" placeholder="输入聊天的内容..."/> -->
-         <ion-input placeholder="输入聊天的内容..."style="font-size:20px;"></ion-input>
+         <ion-input placeholder="输入聊天的内容..."style="font-size:15px;"></ion-input>
           </ion-col>
           <ion-col>
               <img src="../../assets/imgs/23.jpg" style="width:77px;height:53px;">

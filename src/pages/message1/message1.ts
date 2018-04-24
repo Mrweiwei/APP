@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams,ViewController } from 'ionic-angular';
 
 /**
  * Generated class for the Message1Page page.
@@ -15,12 +15,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class Message1Page {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public viewCtrl: ViewController,public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Message1Page');
   }
 msg:string="朋友1";
+back(){
+  this.viewCtrl.dismiss();
+}
+
+
+
 
 }

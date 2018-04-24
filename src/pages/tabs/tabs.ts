@@ -15,9 +15,9 @@ import { Release0Page } from '../release0/release0';
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = ReleasePage;
-  tab3Root=ZiyaPage;
+  // tab1Root = HomePage;
+  tab1Root = ReleasePage;
+  tab2Root=ZiyaPage;
   tab4Root=AboutPage;
   tab5Root=MessagePage;
 

@@ -18,4 +18,12 @@ page-message {
          padding-left: 0px;
          height:40px;
         }
+    .item-md ion-avatar[item-right], .item-md ion-thumbnail[item-right], .item-md ion-avatar[item-end], .item-md ion-thumbnail[item-end] {
+          margin: 0;
+        
+    }
+    .item-md ion-thumbnail {
+        min-width: 48px;
+        min-height: 47.2px;
+    }
 }

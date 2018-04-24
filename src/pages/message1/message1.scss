@@ -1,6 +1,6 @@
 page-message1 {
   .toolbar-title{
-      margin-left: 0%;
+      margin-left: 25%;
   }
   div.speech {
     float: left;
@@ -147,5 +147,12 @@ div .left:after {
     width: 100%;
     height: auto;
 }
-
+.input-md{
+    height: 20px;
+    
+}
+ion-col.col{
+    height: 60%;
+    width: 60%;
+}
 }

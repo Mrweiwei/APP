@@ -17,8 +17,8 @@
       <ion-row>
          <ion-col  *ngFor='let item of list;let i = index;' col-4 >
            <div class="middle" (click)='goto()'>
-              <img src="assets/imgs/xin1.png" alt="">
-             <p> {{item}}</p>
+              <img src="{{item.icon}}" alt="">
+             <p> {{item.title}}</p>
            </div>
           
          </ion-col>
