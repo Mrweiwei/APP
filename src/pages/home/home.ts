@@ -18,6 +18,7 @@ export class HomePage {
               private alertCtrl: AlertController,
               public http:Http,
               private app:App,
+              
   
   
   ) {
@@ -70,7 +71,7 @@ export class HomePage {
   //     console.log(err);
   //   };
   // };
-  this.navCtrl.push(TabsPage);
+  this.app.getRootNavs()[0].setRoot(TabsPage);
   }
   re(){
     this.navCtrl.push(ContactPage);

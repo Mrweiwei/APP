@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { IonicPage,NavParams } from 'ionic-angular';
+import { NavController} from 'ionic-angular';
+import { InfoPage } from '../info/info';
 
 
 
@@ -9,6 +9,11 @@ import { IonicPage,NavParams } from 'ionic-angular';
   templateUrl: 'Ziya.html'
 })
 export class ZiyaPage {
+  constructor(public navCtrl: NavController) {
+  }
+  back(){
+    this.navCtrl.push(InfoPage);
+  }
   icons="info";  
   items = [];
      doRefresh(refresher) {

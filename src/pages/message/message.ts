@@ -34,6 +34,7 @@ list=[{title:'马云',icon:'assets/imgs/18.jpg',ig:'assets/imgs/2.jpg',time:'10:
 
 goto(){
   let profileModal = this.modalCtrl.create(Message1Page);
+
     profileModal.present();
   
   }

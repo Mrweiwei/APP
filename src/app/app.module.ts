@@ -24,6 +24,13 @@ import { Message1Page } from '../pages/message1/message1';
 import { Release2Page } from '../pages/release2/release2';
 import  {ReleasePage } from '../pages/release/release';
 import  {Release0Page } from '../pages/release0/release0';
+import { InfoPage } from '../pages/info/info';
+
+
+
+
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -38,6 +45,7 @@ import  {Release0Page } from '../pages/release0/release0';
     Message1Page,
     Release2Page,
     Release0Page,
+    InfoPage,
   ],
   imports: [
     BrowserModule,
@@ -63,6 +71,7 @@ import  {Release0Page } from '../pages/release0/release0';
     Message1Page,
     Release2Page,
     Release0Page,
+    InfoPage,
   ],
   providers: [
     StatusBar,
