@@ -21,7 +21,7 @@ export class Message1Page {
   ionViewDidLoad() {
     console.log('ionViewDidLoad Message1Page');
   }
-msg:string="朋友1";
+msg:string="马云";
 back(){
   this.viewCtrl.dismiss();
 }
