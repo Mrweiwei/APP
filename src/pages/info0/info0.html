@@ -1,0 +1,70 @@
+<!--
+  Generated template for the Info0Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="ziya">
+    <ion-title style="margin-left:40%;">找信息</ion-title>
+  <ion-searchbar placeholder="输入你想找的信息，试试吧" style="margin-top:10%;"></ion-searchbar>
+  </ion-navbar>
+</ion-header>
+    <ion-content>
+       
+        <ion-item>
+          <ion-label>信息类型</ion-label>
+          <ion-select   [(ngModel)]="infor" interface="popover">
+            <ion-option value="0">资产包转让</ion-option>
+            <ion-option value="1">债权转让</ion-option>
+            <ion-option value="2">固产转让</ion-option>
+            <ion-option value="3">法律服务</ion-option>
+            <ion-option value="4">商业保理</ion-option>
+            <ion-option value="5">典当担保</ion-option>
+            <ion-option value="6">融资借贷</ion-option>
+            <ion-option value="7">委外催收</ion-option>
+            <ion-option value="8">资产求购</ion-option>
+            <ion-option value="9">悬赏信息</ion-option>
+            <ion-option value="10">尽职调查</ion-option>
+           
+          </ion-select>
+        </ion-item>
+        <ion-item >
+            <ion-label>地区</ion-label>
+            <ion-select   [(ngModel)]="location" interface="popover">
+              <ion-option value="0">北京</ion-option>
+              <ion-option value="1">上海</ion-option>
+              <ion-option value="2">天津</ion-option>
+              <ion-option value="3">福建</ion-option>
+              <ion-option value="4">云南</ion-option>
+              <ion-option value="5">内蒙古</ion-option>
+              <ion-option value="6">四川</ion-option>
+              <ion-option value="7">河北</ion-option>
+              <ion-option value="8">河南</ion-option>
+              <ion-option value="9">湖北</ion-option>
+              <ion-option value="10">湖南</ion-option>
+             
+            </ion-select>
+          </ion-item>
+          <ion-item>
+              <ion-label>更多</ion-label>
+              <ion-select   [(ngModel)]="more" interface="popover">
+                <ion-option value="0">国企</ion-option>
+                <ion-option value="1">央企</ion-option>
+                <ion-option value="2">私企</ion-option>
+                <ion-option value="3">国企</ion-option>
+                <ion-option value="4">国企</ion-option>
+                <ion-option value="5">国企</ion-option>
+                <ion-option value="6">国企</ion-option>
+                <ion-option value="7">国企</ion-option>
+                <ion-option value="8">国企</ion-option>
+                <ion-option value="9">国企</ion-option>
+                <ion-option value="10">国企</ion-option>
+               
+              </ion-select>
+            </ion-item>
+</ion-content>
+<ion-footer>
+    <button ion-button color="ziya" id="sure" (click)="go()">确定</button> 
+</ion-footer>
