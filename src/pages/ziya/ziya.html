@@ -62,7 +62,7 @@
         </ion-buttons>
   </ion-toolbar>
   </ion-navbar>
-  <ion-searchbar placeholder="Search" ></ion-searchbar>
+  <ion-searchbar placeholder="请输入信息关键词" ></ion-searchbar>
 </ion-header>
 <ion-content>
   <!-- 轮播图部分 -->
@@ -79,7 +79,7 @@
       </ion-slides>
   <!-- 节点按钮部分 -->
       <ion-segment [(ngModel)]="icons" color='dark'> 
-          <ion-segment-button value="info">
+          <ion-segment-button value="info" (click)="go()">
             找信息
           </ion-segment-button> 
           <ion-segment-button value="serve"> 

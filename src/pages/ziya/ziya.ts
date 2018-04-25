@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController} from 'ionic-angular';
 import { InfoPage } from '../info/info';
+import { Info0Page } from '../info0/info0';
 
 
 
@@ -10,6 +11,9 @@ import { InfoPage } from '../info/info';
 })
 export class ZiyaPage {
   constructor(public navCtrl: NavController) {
+  }
+  go(){
+    this.navCtrl.push(Info0Page);
   }
   back(){
     this.navCtrl.push(InfoPage);

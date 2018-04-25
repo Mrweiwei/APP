@@ -7,11 +7,86 @@
 <ion-header>
 
   <ion-navbar color="ziya">
+      <ion-buttons start (click)="back();">
+          <button ion-button icon-only color="dark">
+           back
+          </button>
+      </ion-buttons>
     <ion-title>信息详情</ion-title>
   </ion-navbar>
 </ion-header>
-
-
 <ion-content>
-
+<ion-grid no-borders>
+  <ion-row>
+  <div style="width:80%;height:auto;">
+    <ion-row  class="row"><p style="color:black;font-weight:bolder;">资产包转让</p>
+    </ion-row>
+      <ion-row  class="row"><p style="color:lightgray">完整度:
+      <img src="assets/imgs/34.jpg" style="width: 70%;height:100%;margin-left:7%;"></p>
+    </ion-row>
+  </div>
+  <div style="width:20%;height:auto;">
+    <ion-row>
+  <img src="assets/imgs/30.jpg" style="width:80%;height:80%;margin-left:10%;">
+    </ion-row>
+    <p style="margin-top:0;text-align:center;">收藏</p>
+  </div>
+</ion-row>
+</ion-grid> 
+<hr>
+<ion-row>
+    <p style="color:lightgray;width:50%;">总金额: <span style="color:firebrick;margin-left:10%">500万</span></p>
+    <p style="color:lightgray;width:50%">转让价: <span style="color:firebrick;margin-left:10%">200万</span></p>
+</ion-row>
+<hr>
+<ion-row>
+    <p style="color:lightgray;width:33%">地区: <span style="color:black;margin-left:20%;">北京</span></p>
+    <p style="color:lightgray;width:33%">来源: <span style="color:black;margin-left:20%;">银行</span></p>
+    <p style="color:lightgray;width:33%">类型: <span style="color:black;margin-left:20%;">抵押</span></p>
+  </ion-row>
+<hr>
+  <div style="margin-top:2%;">
+    <hr>
+      <ion-row  class="row"><p style="color:black;font-weight:bolder;">信息描述</p>
+      </ion-row>
+      <hr>
+      <ion-row >
+          <p style="color:lightgray;">
+          该资源包来自于广发银行......
+          </p>
+      </ion-row>
+      <hr style="margin-top:20%;">
+  </div>
+      <hr style="margin-top:2%;">
+      <ion-row>
+      <p style="color:black;font-weight:bolder;">语言描述:</p>
+        <img src="assets/imgs/32.jpg" style="width:40%;height:80%;margin-left:5%;">
+      </ion-row>
+      <hr>
+      <hr style="margin-top:2%;">
+      <p style="color:black;font-weight:bolder;">图片描述:</p>
+      <hr>
+      <img src="assets/imgs/33.jpg" style="width:100%;height:20%;">
+     <hr>
+     <ion-row>
+     <p style="color:black;width:30%;width:80%;">清单下载 <span style="color:lightgray;margin-left:0%;">(只限PC)</span>
+     </p> 
+     <p style="color:lightgray;width:20%;">立即下载</p>
+    </ion-row>
+    <hr style="margin-top:2%;">
+    <ion-grid>
+        <ion-row>
+          <div class="bto">
+          
+            <img src="assets/imgs/31.jpg" style="width:50%;height:100%;">
+            <span style="hmargin-bottom:10%;">133****8686</span>
+          </div>
+          <div class="bto1">
+              <button ion-button id="btn1">查看抢单人</button> 
+          </div>
+          <div class="bto1">
+              <button ion-button  id="btn2">私聊留言</button> 
+          </div>      
+        </ion-row>
+    </ion-grid>
 </ion-content>

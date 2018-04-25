@@ -16,12 +16,13 @@ import { IonicPage, NavController, NavParams,ViewController } from 'ionic-angula
 export class Message1Page {
 
   constructor(public viewCtrl: ViewController,public navCtrl: NavController, public navParams: NavParams) {
-  }
+  this.msg=navParams.data;
+}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Message1Page');
   }
-msg:string="马云";
+msg;
 back(){
   this.viewCtrl.dismiss();
 }

@@ -25,6 +25,7 @@ import { Release2Page } from '../pages/release2/release2';
 import  {ReleasePage } from '../pages/release/release';
 import  {Release0Page } from '../pages/release0/release0';
 import { InfoPage } from '../pages/info/info';
+import { Info0Page } from '../pages/info0/info0';
 
 
 
@@ -46,6 +47,7 @@ import { InfoPage } from '../pages/info/info';
     Release2Page,
     Release0Page,
     InfoPage,
+    Info0Page
   ],
   imports: [
     BrowserModule,
@@ -72,6 +74,7 @@ import { InfoPage } from '../pages/info/info';
     Release2Page,
     Release0Page,
     InfoPage,
+    Info0Page
   ],
   providers: [
     StatusBar,

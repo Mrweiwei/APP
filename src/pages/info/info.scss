@@ -1,3 +1,47 @@
 page-info {
-
+    ion-grid {
+        margin-top: 0px;
+        border: none;
+    }
+    .row{
+        width:100%;
+        height: auto;
+    }
+    .col{
+         
+            position: relative;
+            width: 50%;
+            margin: 0;
+            min-height: 1px;
+            -webkit-flex-basis: 0;
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 50%;
+    }
+    .bto{
+        width: 46%;
+        height:50px;;
+    }
+    .bto1{
+        width: 27%;
+        height:50px;;
+    }
+    #btn1{
+        width: 100%;
+        height: 100%;
+        background-color:#ff3366;
+        color:white ;
+        font-size:20px;
+    }
+    #btn2{
+        width: 100%;
+        height: 100%;
+        background-color:#fedb47;
+        color:black ;
+        font-size:20px;
+    }
 }

@@ -10,12 +10,13 @@ import { AboutPage } from '../pages/about/about';
 import { ZiyaPage } from '../pages/ziya/ziya';
 import { MessagePage } from '../pages/message/message';
 import { Message1Page } from '../pages/message1/message1';
+import { Info0Page } from '../pages/info0/info0';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any =HomePage;
+  rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
